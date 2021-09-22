@@ -1,0 +1,54 @@
+#nav a{
+	color: whitesmoke;
+	}
+
+#nav a:hover,
+#nav h1 {
+	color: silver;
+	}
+
+#nav,
+#middle,
+#footer {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000,endColorstr=#80000000);
+	zoom: 1;
+	*display: inline;
+	}
+
+#nav li{
+	*display: inline;
+	}
+
+#members{
+	*display: inline;
+	}
+
+#members + h4 {
+	*display: inline;
+	width: 490px;
+	}
+
+.more {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000,endColorstr=#33000000);
+	zoom: 1;
+	}
+
+.more:hover {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+	zoom: 1;
+	}
+
+#hismem a:hover h4 {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+	zoom: 1;
+	}
+
+.jp-playlist {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000,endColorstr=#33000000);
+	zoom: 1;
+	}

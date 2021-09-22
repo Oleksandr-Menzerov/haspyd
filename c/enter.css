@@ -1,0 +1,225 @@
+/* Суцiльне обнулення...	*/
+
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, font, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+	    margin: 0; /* обнуляємо зовнiшнi вiдступи */
+	    padding: 0; /* обнуляємо внутрiшнi вiдступи */
+	    border: 0; /* прибираємо бордюри */
+	    outline: 0; /* прибираємо контури */
+	    font-size: 100%; /* задаємо базовий розмiр шрифту, значення за замовчуванням = 16px */
+	    vertical-align: baseline; /* встановлюємо базове вертикальне вирiвнювання */
+	    background: transparent; /* встановлюємо фон прозорим */
+	}
+	body {
+	    line-height: 1; /* встановлюємо базову висоту */
+	}
+	ol, ul {
+	    list-style: none; /* прибираємо маркери для нумерованих та звичайних спискiв */
+	}
+	blockquote, q {
+	    quotes: none; /* прибираємо лапки для цитат */
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+	    content: ''; /* прибираємо */
+	    content: none; /* та приховуємо вмiст що генерується */
+	}
+	:focus {
+	    outline: 0; /* прибираємо контури навколо посилань при фокусi */
+	}
+	ins {
+	    text-decoration: none; /* прибираємо пiдкреслення для вставленого тексту */
+	}
+	del {
+	    text-decoration: line-through; /* прибираємо перекреслення для видаленого тексту */
+	}
+	table {
+	    border-collapse: collapse; /* прибираємо рамки подвiйної товщини */
+	    border-spacing: 0; /* прибираємо вiдстань мiж чарунками */
+	}
+
+/* Суцiльне обнулення завершено.	*/
+
+html,
+body {
+	height: 100%;
+	min-width: 1210px;
+	padding: 0;
+	margin: 0;
+    	font-family: 'Lato', arial, sans-serif;
+	}
+#bg {
+        position:fixed;
+        top:-50%;
+        left:-50%;
+        width:200%;
+        height:200%;
+}
+#bg img {
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        margin:auto;
+        min-width:50%;
+        min-height:50%;
+}
+#fix {
+  position: absolute;
+	left: 0px;
+	top: 0px; 
+}
+
+#fix>ul {
+	margin-left: 0px;
+	margin-top: 10px; 
+	}
+#fix>ul>li {
+        padding: 0px;
+	margin: 0px;
+        }
+
+#enter {
+	position: absolute;
+	width: 400px;
+	height: 250px;
+	left: 50%;
+	top: 20%;
+	margin: -100px 0 0 -200px;
+	}
+
+#ua {
+	float: left;
+  	text-align: left; 
+	}
+
+#en {
+	float: right;
+  	text-align: right; 
+	padding-right: 10px;
+	}
+
+#ua, #en {
+	display: none;
+	}
+
+#enter a {
+	text-decoration: none;
+	color: rgb(37,43,46);   
+	line-height: 60px;
+    	font-size: 46px; 
+    	font-family: narbuthaspyd;
+	letter-spacing: 7px;
+    	text-shadow:	1px 0px rgba(180,180,180,1),
+			0px 1px rgba(180,180,180,1),
+			-1px 0px rgba(180,180,180,1),
+			0px -1px rgba(180,180,180,1),
+			1px 1px rgba(180,180,180,1),
+			-1px -1px rgba(180,180,180,1),
+			2px 0px 1px rgba(180,180,180,0.8),
+			0px 2px 1px rgba(180,180,180,0.8),
+			-2px 0px 1px rgba(180,180,180,0.8),
+			0px -2px 1px rgba(180,180,180,0.8),
+			2px 2px 1px rgba(180,180,180,0.8),
+			-2px -2px 1px rgba(180,180,180,0.8),
+			2px 1px 1px rgba(180,180,180,0.8),
+			1px 2px 1px rgba(180,180,180,0.8),
+			-2px 1px 1px rgba(180,180,180,0.8),
+			1px -2px 1px rgba(180,180,180,0.8),
+			2px -1px 1px rgba(180,180,180,0.8),
+			-1px -2px 1px rgba(180,180,180,0.8);
+	}
+
+#enter a:hover {
+    	color: rgb(255,255,255);
+	opacity: 0.9;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=90)";
+   	text-shadow:	1px 0px rgba(5,5,5,0.3),
+			0px 1px rgba(5,5,5,0.3),
+			-1px 0px rgba(5,5,5,0.3),
+			0px -1px rgba(5,5,5,0.3),
+			1px 1px rgba(5,5,5,0.3),
+			-1px -1px rgba(5,5,5,0.3),
+			2px 0px rgba(5,5,5,0.2),
+			0px 2px rgba(5,5,5,0.2),
+			-2px 0px rgba(255,255,255,0.2),
+			0px -2px rgba(255,255,255,0.2),
+			2px 2px rgba(255,255,255,0.2),
+			-2px -2px rgba(255,255,255,0.2),
+			0px 0px 8px rgba(255,255,255,1),
+			0px 0px 6px rgba(255,255,255,1),
+			0px 0px 2px rgba(255,255,255,1);
+
+	}
+
+a.lastfm,
+a.fb,
+a.soundcloud,
+a.itunes,
+a.youtube,
+a.vk,
+a.Amazon,
+a.itunes,
+a.MySpace,
+a.gp,
+a.spot {
+        display: block;
+        height: 50px;  
+        width: 50px;  
+        text-decoration: none; 
+        }
+
+a.fb    {
+        background:url('../i/outer.png') 0 -50px;
+        }
+a.vk {
+        background:url('../i/outer.png') 0 -100px;
+        }
+a.youtube {
+        background:url('../i/outer.png') 0 -150px;
+        }
+a.lastfm {
+        background:url('../i/outer.png') 0 -200px;
+        }
+a.soundcloud {
+        background:url('../i/outer.png') 0 -250px;
+        }
+a.MySpace {
+        background:url('../i/outer.png') 0 -300px;
+        }
+a.itunes {
+        background:url('../i/outer.png') 0 -350px;
+        }
+a.Amazon {
+        background:url('../i/outer.png') 0 -400px;
+        }
+a.gp {
+        background:url('../i/outer.png') 0 -450px;
+        }
+a.spot {
+        background:url('../i/outer.png') 0 -500px;
+        }
+a:hover.lastfm,
+a:hover.fb,
+a:hover.soundcloud,
+a:hover.itunes,
+a:hover.youtube,
+a:hover.vk,
+a:hover.Amazon, 
+a:hover.MySpace,
+a:hover.gp, 
+a:hover.spot  {
+	background-color: rgb(49,56,59);
+        opacity: 0.5;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=50)";
+        }
